@@ -15,16 +15,21 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-background/95 backdrop-blur border-b border-border animate-glow">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between">
+     <nav className="h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <Image
-            src="/zamani-logo.png"
-            alt="Zamani Logo"
-            width={160}
-            height={160}
-            className="animate-fade-in-up w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain"
-            priority
-          />
+         <Image
+          src="/zamani-logo.png"
+          alt="Zamani Logo"
+          width={100}
+          height={100}
+          className="animate-fade-in-up 
+               w-32 h-32 
+               sm:w-40 sm:h-40 
+               md:w-48 md:h-48 
+               lg:w-56 lg:h-56 
+               object-contain"
+    priority
+  />
         </div>
 
         <div className="hidden md:flex items-center gap-8">
