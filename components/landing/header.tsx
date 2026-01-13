@@ -18,7 +18,7 @@ export default function Header() {
      <nav className="h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="flex items-center">
          <Image
-          src="/zamani-logo.png"
+          src="/ourlogo.png"
           alt="Zamani Logo"
           width={100}
           height={100}
